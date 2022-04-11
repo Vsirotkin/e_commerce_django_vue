@@ -70,6 +70,20 @@
   </div>
 </template>
 
+<script>
+import axios from 'axios'
+
+export default {
+  data() {
+    return {
+      showMobileMenu: false,
+    }
+  }
+}
+  </script>
+
+
+
 <style lang="scss">
   @import "../node_modules/bulma";
 </style>
